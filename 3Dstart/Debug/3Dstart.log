@@ -1,0 +1,57 @@
+﻿7/18/2018 12:32:25 AM にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\kazu\Documents\Visual Studio 2015\Projects\3Dstart - Copy\3Dstart\3Dstart.vcxproj" (Build ターゲット)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (3Dstart.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt bullet.cpp
+         bullet.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kazu\Documents\Visual Studio 2015\Projects\3Dstart - Copy\Debug\Verdigen.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\kazu\Documents\Visual Studio 2015\Projects\3Dstart - Copy\Debug\Verdigen.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kazu\Documents\Visual Studio 2015\Projects\3Dstart - Copy\Debug\Verdigen.lib" /MACHINE:X86 Debug\3Dstart.res
+         Debug\boar.obj
+         Debug\cannon.obj
+         Debug\collision.obj
+         Debug\crate.obj
+         Debug\fade.obj
+         Debug\fence.obj
+         Debug\gate.obj
+         Debug\gem.obj
+         Debug\input.obj
+         Debug\main.obj
+         Debug\map.obj
+         Debug\path.obj
+         Debug\rock.obj
+         Debug\score.obj
+         Debug\stage.obj
+         "Debug\status icon.obj"
+         Debug\title_text.obj
+         Debug\tree.obj
+         Debug\bullet.obj
+         Debug\camera.obj
+         Debug\car.obj
+         Debug\checkhit.obj
+         Debug\DBD.obj
+         Debug\effect.obj
+         Debug\enemy.obj
+         "Debug\environment hub.obj"
+         Debug\game.obj
+         Debug\house.obj
+         Debug\light.obj
+         Debug\meshwater.obj
+         Debug\NPC.obj
+         Debug\pig.obj
+         Debug\player.obj
+         Debug\mathWk.obj
+         Debug\result.obj
+         Debug\shadow.obj
+         Debug\sight.obj
+         Debug\skybox.obj
+         Debug\title.obj
+         Debug\UI.obj
+         Debug\help_text.obj
+         "Debug\UI hub.obj"
+         Debug\waypoint.obj
+         3Dstart.vcxproj -> C:\Users\kazu\Documents\Visual Studio 2015\Projects\3Dstart - Copy\Debug\Verdigen.exe
+     1>プロジェクト "C:\Users\kazu\Documents\Visual Studio 2015\Projects\3Dstart - Copy\3Dstart\3Dstart.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:02.37

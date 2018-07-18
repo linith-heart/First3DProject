@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\game">
+      <UniqueIdentifier>{d5b0cd9c-22cc-4cc0-b59e-bdd60754d617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\environment">
+      <UniqueIdentifier>{c2071181-12e8-4457-bc26-81306cda1df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\effect &amp; particles">
+      <UniqueIdentifier>{88d09773-13be-432b-93ed-b24655cb7109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\chara">
+      <UniqueIdentifier>{09f11832-ddda-47af-bb12-24b3464b9ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\game">
+      <UniqueIdentifier>{a56a939b-c4b7-48c4-a597-3d2fd03ce341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\game\chara">
+      <UniqueIdentifier>{88d0ca29-acd7-4d9f-831b-9205595c2b0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\game\effect &amp; particles">
+      <UniqueIdentifier>{efb4bb0e-3135-4afa-84a2-e174720c901d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\game\environment">
+      <UniqueIdentifier>{f578feee-e3c9-412b-936d-c5430043740b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\title">
+      <UniqueIdentifier>{f6a5dd53-177c-4e34-ad2a-1319d9e64d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\title">
+      <UniqueIdentifier>{86f0a9e0-2573-47dc-8a6f-9c1ba5880843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\result">
+      <UniqueIdentifier>{80a9d922-3c3e-40cb-82d6-fe9e37b9bda7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\result">
+      <UniqueIdentifier>{e8b9b80b-9e7f-4517-9ae4-5fcbd45aacb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\chara\enemy">
+      <UniqueIdentifier>{0b363a1f-fc60-423c-a38f-062ca519a885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\chara\NPC">
+      <UniqueIdentifier>{cd4cfc78-6aa1-4900-81f6-7ec930269812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\game\chara\enemy">
+      <UniqueIdentifier>{52c8860d-7177-44d0-ab55-a95ebbd792db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\game\chara\NPC">
+      <UniqueIdentifier>{e46e5f01-a30b-48e1-9776-5a717425a8ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\UI">
+      <UniqueIdentifier>{6a1d23ef-1e5e-42a0-bd1a-db46f44faec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\game\UI">
+      <UniqueIdentifier>{30e98eca-e86c-492c-bd1a-4fd8920b7a76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\environment\items">
+      <UniqueIdentifier>{63a9088d-e05b-4c46-9fc1-92082021b759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\environment\objects">
+      <UniqueIdentifier>{7514715e-40f7-4eca-b21a-682b0b25db4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\environment\map">
+      <UniqueIdentifier>{76948092-34eb-4724-9075-951fe04abf2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\game\environment\items">
+      <UniqueIdentifier>{154fb484-54aa-427b-b340-c6e942565169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\game\environment\map">
+      <UniqueIdentifier>{74e8c77d-5341-4467-a321-e38b2405cdb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\game\environment\objects">
+      <UniqueIdentifier>{6b1dc238-9c97-4339-b305-93ee1e1e756f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="3Dstart.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\game\chara</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>ソース ファイル\game\effect &amp; particles</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>ソース ファイル\game\effect &amp; particles</Filter>
+    </ClCompile>
+    <ClCompile Include="checkhit.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="mathWk.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="DBD.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>ソース ファイル\game\chara\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="car.cpp">
+      <Filter>ソース ファイル\game\chara\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="sight.cpp">
+      <Filter>ソース ファイル\game\chara\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="pig.cpp">
+      <Filter>ソース ファイル\game\chara\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>ソース ファイル\game\chara\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>ソース ファイル\result</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\title</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="waypoint.cpp">
+      <Filter>ソース ファイル\game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cannon.cpp">
+      <Filter>ソース ファイル\game\chara\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="path.cpp">
+      <Filter>ソース ファイル\game\chara</Filter>
+    </ClCompile>
+    <ClCompile Include="UI hub.cpp">
+      <Filter>ソース ファイル\game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>ソース ファイル\game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="environment hub.cpp">
+      <Filter>ソース ファイル\game\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="gem.cpp">
+      <Filter>ソース ファイル\game\environment\items</Filter>
+    </ClCompile>
+    <ClCompile Include="crate.cpp">
+      <Filter>ソース ファイル\game\environment\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="rock.cpp">
+      <Filter>ソース ファイル\game\environment\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="tree.cpp">
+      <Filter>ソース ファイル\game\environment\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="gate.cpp">
+      <Filter>ソース ファイル\game\environment\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>ソース ファイル\game\environment\map</Filter>
+    </ClCompile>
+    <ClCompile Include="skybox.cpp">
+      <Filter>ソース ファイル\game\environment\map</Filter>
+    </ClCompile>
+    <ClCompile Include="house.cpp">
+      <Filter>ソース ファイル\game\environment\map</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ソース ファイル\game\effect &amp; particles</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow.cpp">
+      <Filter>ソース ファイル\game\effect &amp; particles</Filter>
+    </ClCompile>
+    <ClCompile Include="fence.cpp">
+      <Filter>ソース ファイル\game\environment\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="boar.cpp">
+      <Filter>ソース ファイル\game\chara\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="meshwater.cpp">
+      <Filter>ソース ファイル\game\environment\map</Filter>
+    </ClCompile>
+    <ClCompile Include="help_text.cpp">
+      <Filter>ソース ファイル\game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>ソース ファイル\game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="status icon.cpp">
+      <Filter>ソース ファイル\game\effect &amp; particles</Filter>
+    </ClCompile>
+    <ClCompile Include="stage.cpp">
+      <Filter>ソース ファイル\game\environment\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="title_text.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DBD.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ヘッダー ファイル\title</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>ヘッダー ファイル\result</Filter>
+    </ClInclude>
+    <ClInclude Include="waypoint.h">
+      <Filter>ヘッダー ファイル\game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>ヘッダー ファイル\game\effect &amp; particles</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>ヘッダー ファイル\game\effect &amp; particles</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>ヘッダー ファイル\game\chara\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="pig.h">
+      <Filter>ヘッダー ファイル\game\chara\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="sight.h">
+      <Filter>ヘッダー ファイル\game\chara\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>ヘッダー ファイル\game\chara\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="car.h">
+      <Filter>ヘッダー ファイル\game\chara\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="cannon.h">
+      <Filter>ヘッダー ファイル\game\chara\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="mathWk.h">
+      <Filter>ヘッダー ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ヘッダー ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="checkhit.h">
+      <Filter>ヘッダー ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダー ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダー ファイル\game\chara</Filter>
+    </ClInclude>
+    <ClInclude Include="path.h">
+      <Filter>ヘッダー ファイル\game\chara</Filter>
+    </ClInclude>
+    <ClInclude Include="UI hub.h">
+      <Filter>ヘッダー ファイル\game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>ヘッダー ファイル\game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="environment hub.h">
+      <Filter>ヘッダー ファイル\game\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="crate.h">
+      <Filter>ヘッダー ファイル\game\environment\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="gate.h">
+      <Filter>ヘッダー ファイル\game\environment\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="gem.h">
+      <Filter>ヘッダー ファイル\game\environment\items</Filter>
+    </ClInclude>
+    <ClInclude Include="house.h">
+      <Filter>ヘッダー ファイル\game\environment\map</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>ヘッダー ファイル\game\environment\map</Filter>
+    </ClInclude>
+    <ClInclude Include="rock.h">
+      <Filter>ヘッダー ファイル\game\environment\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="tree.h">
+      <Filter>ヘッダー ファイル\game\environment\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="skybox.h">
+      <Filter>ヘッダー ファイル\game\environment\map</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow.h">
+      <Filter>ヘッダー ファイル\game\effect &amp; particles</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ヘッダー ファイル\game\effect &amp; particles</Filter>
+    </ClInclude>
+    <ClInclude Include="fence.h">
+      <Filter>ヘッダー ファイル\game\environment\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>ヘッダー ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="meshwater.h">
+      <Filter>ヘッダー ファイル\game\environment\map</Filter>
+    </ClInclude>
+    <ClInclude Include="title_text.h">
+      <Filter>ヘッダー ファイル\title</Filter>
+    </ClInclude>
+    <ClInclude Include="help_text.h">
+      <Filter>ヘッダー ファイル\game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>ヘッダー ファイル\game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="status icon.h">
+      <Filter>ヘッダー ファイル\game\effect &amp; particles</Filter>
+    </ClInclude>
+    <ClInclude Include="stage.h">
+      <Filter>ヘッダー ファイル\game\environment\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="boar.h">
+      <Filter>ヘッダー ファイル\game\chara\enemy</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
