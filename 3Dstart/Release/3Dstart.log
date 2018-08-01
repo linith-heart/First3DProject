@@ -1,13 +1,123 @@
-﻿5/23/2018 5:01:48 AM にビルドを開始しました。
-     1>ノード 2 上のプロジェクト "C:\Users\kazu\Documents\Visual Studio 2015\Projects\3Dstart\3Dstart\3Dstart.vcxproj" (Build ターゲット)。
+﻿8/1/2018 7:05:30 PM にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\file\GitHub\3Dproject\3Dstart\3Dstart.vcxproj" (Build ターゲット)。
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (3Dstart.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt title_text.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt boar.cpp cannon.cpp collision.cpp crate.cpp fade.cpp fence.cpp gate.cpp gem.cpp input.cpp main.cpp map.cpp path.cpp rock.cpp score.cpp stage.cpp "status icon.cpp" title_text.cpp tree.cpp bullet.cpp camera.cpp car.cpp checkhit.cpp DBD.cpp effect.cpp enemy.cpp "environment hub.cpp" game.cpp house.cpp light.cpp meshwater.cpp NPC.cpp pig.cpp player.cpp mathWk.cpp result.cpp shadow.cpp sight.cpp skybox.cpp title.cpp UI.cpp help_text.cpp "UI hub.cpp" waypoint.cpp
+         boar.cpp
+     1>boar.cpp(90): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 'fopen' の宣言を確認してください
+     1>boar.cpp(104): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'bool *'
+     1>boar.cpp(104): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1193): note: 'fscanf' の宣言を確認してください
+     1>boar.cpp(291): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+     1>boar.cpp(332): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+     1>boar.cpp(349): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+     1>boar.cpp(446): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+     1>boar.cpp(577): warning C4244: '初期化中': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+     1>boar.cpp(578): warning C4244: '初期化中': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+         cannon.cpp
+     1>cannon.cpp(125): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>cannon.cpp(136): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+         collision.cpp
+         crate.cpp
+     1>crate.cpp(92): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 'fopen' の宣言を確認してください
+     1>crate.cpp(103): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1193): note: 'fscanf' の宣言を確認してください
+     1>crate.cpp(112): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1193): note: 'fscanf' の宣言を確認してください
+     1>crate.cpp(195): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>crate.cpp(201): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>crate.cpp(204): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>crate.cpp(207): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+         fade.cpp
+         fence.cpp
+         gate.cpp
+         gem.cpp
+         input.cpp
+         main.cpp
+         map.cpp
+         path.cpp
+         rock.cpp
+         score.cpp
+         stage.cpp
+         status icon.cpp
          title_text.cpp
      1>title_text.cpp(167): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
      1>title_text.cpp(173): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
+         tree.cpp
+         bullet.cpp
+         camera.cpp
+     1>camera.cpp(120): warning C4101: 'check': ローカル変数は 1 度も使われていません。
+     1>camera.cpp(119): warning C4101: 'j': ローカル変数は 1 度も使われていません。
+     1>camera.cpp(118): warning C4101: 'i': ローカル変数は 1 度も使われていません。
+     1>camera.cpp(191): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>camera.cpp(192): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>camera.cpp(193): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>camera.cpp(208): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>camera.cpp(209): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>camera.cpp(210): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>camera.cpp(225): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>camera.cpp(226): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>camera.cpp(227): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>camera.cpp(242): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>camera.cpp(243): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>camera.cpp(244): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>camera.cpp(269): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>camera.cpp(270): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>camera.cpp(297): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>camera.cpp(298): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>camera.cpp(326): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>camera.cpp(327): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>camera.cpp(355): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>camera.cpp(356): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>camera.cpp(387): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>camera.cpp(388): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+         コンパイル中...
+         car.cpp
+     1>car.cpp(132): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>car.cpp(146): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+         checkhit.cpp
+     1>checkhit.cpp(371): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>checkhit.cpp(414): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>checkhit.cpp(453): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+         DBD.cpp
+         effect.cpp
+         enemy.cpp
+         environment hub.cpp
+         game.cpp
+         house.cpp
+         light.cpp
+         meshwater.cpp
+         NPC.cpp
+         pig.cpp
+         player.cpp
+     1>player.cpp(386): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>player.cpp(387): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>player.cpp(308): warning C4101: 'i': ローカル変数は 1 度も使われていません。
+         mathWk.cpp
+     1>mathWk.cpp(80): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+         result.cpp
+         shadow.cpp
+         sight.cpp
+     1>sight.cpp(132): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+         skybox.cpp
+         title.cpp
+         UI.cpp
+     1>UI.cpp(197): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>UI.cpp(199): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>UI.cpp(202): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>UI.cpp(209): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+         コンパイル中...
+         help_text.cpp
+     1>help_text.cpp(156): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+         UI hub.cpp
+         waypoint.cpp
+     1>waypoint.cpp(113): warning C4101: 'i': ローカル変数は 1 度も使われていません。
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Release\3Dstart.res" 3Dstart.rc 
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kazu\Documents\Visual Studio 2015\Projects\3Dstart\Release\Verdigen.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\kazu\Documents\Visual Studio 2015\Projects\3Dstart\Release\Verdigen.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kazu\Documents\Visual Studio 2015\Projects\3Dstart\Release\Verdigen.lib" /MACHINE:X86 /SAFESEH Release\3Dstart.res
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\file\GitHub\3Dproject\Release\Verdigen.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\file\GitHub\3Dproject\Release\Verdigen.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\file\GitHub\3Dproject\Release\Verdigen.lib" /MACHINE:X86 /SAFESEH Release\3Dstart.res
          Release\boar.obj
          Release\cannon.obj
          Release\collision.obj
@@ -52,13 +162,16 @@
          "Release\UI hub.obj"
          Release\waypoint.obj
          コード生成しています。
-         2 of 313 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
-           0 functions were new in current compilation
-           2 functions had inline decision re-evaluated but remain unchanged
+     1>d:\file\github\3dproject\3dstart\rock.cpp(370): warning C4715: 'SetRockMesh': 値を返さないコントロール パスがあります。
+     1>d:\file\github\3dproject\3dstart\gem.cpp(98): warning C4715: 'InitGem': 値を返さないコントロール パスがあります。
+     1>d:\file\github\3dproject\3dstart\gate.cpp(152): warning C4715: 'InitGate': 値を返さないコントロール パスがあります。
+         311 of 313 functions (99.4%) were compiled, the rest were copied from previous compilation.
+           37 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
          コード生成が終了しました。
-         3Dstart.vcxproj -> C:\Users\kazu\Documents\Visual Studio 2015\Projects\3Dstart\Release\Verdigen.exe
-     1>プロジェクト "C:\Users\kazu\Documents\Visual Studio 2015\Projects\3Dstart\3Dstart\3Dstart.vcxproj" (Build ターゲット) のビルドが完了しました。
+         3Dstart.vcxproj -> D:\file\GitHub\3Dproject\Release\Verdigen.exe
+     1>プロジェクト "D:\file\GitHub\3Dproject\3Dstart\3Dstart.vcxproj" (Build ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:01.85
+経過時間 00:00:25.12

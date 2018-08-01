@@ -1,11 +1,156 @@
-﻿7/18/2018 12:32:25 AM にビルドを開始しました。
-     1>ノード 2 上のプロジェクト "C:\Users\kazu\Documents\Visual Studio 2015\Projects\3Dstart - Copy\3Dstart\3Dstart.vcxproj" (Build ターゲット)。
+﻿8/1/2018 7:04:44 PM にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\file\GitHub\3Dproject\3Dstart\3Dstart.vcxproj" (Build ターゲット)。
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (3Dstart.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt bullet.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt boar.cpp cannon.cpp collision.cpp crate.cpp fade.cpp fence.cpp gate.cpp gem.cpp input.cpp main.cpp map.cpp path.cpp rock.cpp score.cpp stage.cpp "status icon.cpp" title_text.cpp tree.cpp bullet.cpp camera.cpp car.cpp checkhit.cpp DBD.cpp effect.cpp enemy.cpp "environment hub.cpp" game.cpp house.cpp light.cpp meshwater.cpp NPC.cpp pig.cpp player.cpp mathWk.cpp result.cpp shadow.cpp sight.cpp skybox.cpp title.cpp UI.cpp help_text.cpp "UI hub.cpp" waypoint.cpp
+         waypoint.cpp
+     1>d:\file\github\3dproject\3dstart\waypoint.cpp(113): warning C4101: 'i': ローカル変数は 1 度も使われていません。
+         UI hub.cpp
+         help_text.cpp
+     1>d:\file\github\3dproject\3dstart\help_text.cpp(156): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+         UI.cpp
+     1>d:\file\github\3dproject\3dstart\ui.cpp(197): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\ui.cpp(199): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\ui.cpp(202): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\ui.cpp(209): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+         title.cpp
+         skybox.cpp
+         sight.cpp
+     1>d:\file\github\3dproject\3dstart\sight.cpp(132): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+         shadow.cpp
+         result.cpp
+         mathWk.cpp
+     1>d:\file\github\3dproject\3dstart\mathwk.cpp(80): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+         player.cpp
+     1>d:\file\github\3dproject\3dstart\player.cpp(386): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\player.cpp(387): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\player.cpp(308): warning C4101: 'i': ローカル変数は 1 度も使われていません。
+         pig.cpp
+         NPC.cpp
+         meshwater.cpp
+         light.cpp
+         house.cpp
+         game.cpp
+         environment hub.cpp
+         enemy.cpp
+         effect.cpp
+         コードを生成中...
+         コンパイル中...
+         DBD.cpp
+     1>d:\file\github\3dproject\3dstart\dbd.cpp(113): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\dbd.cpp(133): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\dbd.cpp(134): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\dbd.cpp(138): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 'sprintf' の宣言を確認してください
+     1>d:\file\github\3dproject\3dstart\dbd.cpp(143): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 'sprintf' の宣言を確認してください
+     1>d:\file\github\3dproject\3dstart\dbd.cpp(148): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 'sprintf' の宣言を確認してください
+     1>d:\file\github\3dproject\3dstart\dbd.cpp(153): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 'sprintf' の宣言を確認してください
+     1>d:\file\github\3dproject\3dstart\dbd.cpp(158): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 'sprintf' の宣言を確認してください
+     1>d:\file\github\3dproject\3dstart\dbd.cpp(163): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 'sprintf' の宣言を確認してください
+     1>d:\file\github\3dproject\3dstart\dbd.cpp(168): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 'sprintf' の宣言を確認してください
+     1>d:\file\github\3dproject\3dstart\dbd.cpp(173): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 'sprintf' の宣言を確認してください
+     1>d:\file\github\3dproject\3dstart\dbd.cpp(178): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 'sprintf' の宣言を確認してください
+     1>d:\file\github\3dproject\3dstart\dbd.cpp(183): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 'sprintf' の宣言を確認してください
+     1>d:\file\github\3dproject\3dstart\dbd.cpp(188): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 'sprintf' の宣言を確認してください
+     1>d:\file\github\3dproject\3dstart\dbd.cpp(193): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 'sprintf' の宣言を確認してください
+         checkhit.cpp
+     1>d:\file\github\3dproject\3dstart\checkhit.cpp(371): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>d:\file\github\3dproject\3dstart\checkhit.cpp(414): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>d:\file\github\3dproject\3dstart\checkhit.cpp(453): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+         car.cpp
+     1>d:\file\github\3dproject\3dstart\car.cpp(132): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\car.cpp(146): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+         camera.cpp
+     1>d:\file\github\3dproject\3dstart\camera.cpp(120): warning C4101: 'check': ローカル変数は 1 度も使われていません。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(119): warning C4101: 'j': ローカル変数は 1 度も使われていません。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(118): warning C4101: 'i': ローカル変数は 1 度も使われていません。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(191): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(192): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(193): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(208): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(209): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(210): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(225): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(226): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(227): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(242): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(243): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(244): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(269): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(270): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(297): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(298): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(326): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(327): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(355): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(356): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(387): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\camera.cpp(388): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
          bullet.cpp
+         tree.cpp
+         title_text.cpp
+     1>d:\file\github\3dproject\3dstart\title_text.cpp(167): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+     1>d:\file\github\3dproject\3dstart\title_text.cpp(173): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
+         status icon.cpp
+         stage.cpp
+         score.cpp
+         rock.cpp
+         path.cpp
+         map.cpp
+         main.cpp
+         input.cpp
+         gem.cpp
+         gate.cpp
+         fence.cpp
+         fade.cpp
+         crate.cpp
+     1>d:\file\github\3dproject\3dstart\crate.cpp(92): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 'fopen' の宣言を確認してください
+     1>d:\file\github\3dproject\3dstart\crate.cpp(103): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1193): note: 'fscanf' の宣言を確認してください
+     1>d:\file\github\3dproject\3dstart\crate.cpp(112): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1193): note: 'fscanf' の宣言を確認してください
+     1>d:\file\github\3dproject\3dstart\crate.cpp(195): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>d:\file\github\3dproject\3dstart\crate.cpp(201): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\crate.cpp(204): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\crate.cpp(207): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+         コードを生成中...
+     1>d:\file\github\3dproject\3dstart\gate.cpp(152): warning C4715: 'InitGate': 値を返さないコントロール パスがあります。
+     1>d:\file\github\3dproject\3dstart\gem.cpp(98): warning C4715: 'InitGem': 値を返さないコントロール パスがあります。
+     1>d:\file\github\3dproject\3dstart\rock.cpp(370): warning C4715: 'SetRockMesh': 値を返さないコントロール パスがあります。
+         コンパイル中...
+         collision.cpp
+         cannon.cpp
+     1>d:\file\github\3dproject\3dstart\cannon.cpp(125): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\cannon.cpp(136): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+         boar.cpp
+     1>d:\file\github\3dproject\3dstart\boar.cpp(90): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 'fopen' の宣言を確認してください
+     1>d:\file\github\3dproject\3dstart\boar.cpp(104): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'bool *'
+     1>d:\file\github\3dproject\3dstart\boar.cpp(104): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1193): note: 'fscanf' の宣言を確認してください
+     1>d:\file\github\3dproject\3dstart\boar.cpp(291): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+     1>d:\file\github\3dproject\3dstart\boar.cpp(332): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+     1>d:\file\github\3dproject\3dstart\boar.cpp(349): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+     1>d:\file\github\3dproject\3dstart\boar.cpp(446): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+     1>d:\file\github\3dproject\3dstart\boar.cpp(577): warning C4244: '初期化中': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\file\github\3dproject\3dstart\boar.cpp(578): warning C4244: '初期化中': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+         コードを生成中...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\3Dstart.res" 3Dstart.rc 
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kazu\Documents\Visual Studio 2015\Projects\3Dstart - Copy\Debug\Verdigen.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\kazu\Documents\Visual Studio 2015\Projects\3Dstart - Copy\Debug\Verdigen.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kazu\Documents\Visual Studio 2015\Projects\3Dstart - Copy\Debug\Verdigen.lib" /MACHINE:X86 Debug\3Dstart.res
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\file\GitHub\3Dproject\Debug\Verdigen.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\file\GitHub\3Dproject\Debug\Verdigen.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\file\GitHub\3Dproject\Debug\Verdigen.lib" /MACHINE:X86 Debug\3Dstart.res
          Debug\boar.obj
          Debug\cannon.obj
          Debug\collision.obj
@@ -49,9 +194,9 @@
          Debug\help_text.obj
          "Debug\UI hub.obj"
          Debug\waypoint.obj
-         3Dstart.vcxproj -> C:\Users\kazu\Documents\Visual Studio 2015\Projects\3Dstart - Copy\Debug\Verdigen.exe
-     1>プロジェクト "C:\Users\kazu\Documents\Visual Studio 2015\Projects\3Dstart - Copy\3Dstart\3Dstart.vcxproj" (Build ターゲット) のビルドが完了しました。
+         3Dstart.vcxproj -> D:\file\GitHub\3Dproject\Debug\Verdigen.exe
+     1>プロジェクト "D:\file\GitHub\3Dproject\3Dstart\3Dstart.vcxproj" (Build ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:02.37
+経過時間 00:00:31.60
